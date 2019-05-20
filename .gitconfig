@@ -1,0 +1,9 @@
+[user]
+	name = "Piotr Kotnis"
+	email = "piotr.kotnis@u2i.com"
+[alias]
+	st = status
+	co = checkout
+	cdiff = diff --cached
+	lg = log --graph --all --oneline
+	slog = log --oneline --abbrev-commit
