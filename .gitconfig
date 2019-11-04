@@ -6,6 +6,7 @@
 [alias]
 	st = status
 	co = checkout
+	cof = !git branch | fzf | xargs git checkout
 	cdiff = diff --cached
 	lg = log --graph --all --oneline
 	slog = log --oneline --abbrev-commit
